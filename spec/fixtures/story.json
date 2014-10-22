@@ -1,0 +1,20 @@
+{
+   "created_at": "2014-10-07T12:00:00Z",
+   "current_state": "unstarted",
+   "description": "ignore the droids",
+   "estimate": 2,
+   "id": 555,
+   "kind": "story",
+   "labels":
+   [
+   ],
+   "name": "Bring me the passengers",
+   "owner_ids":
+   [
+   ],
+   "project_id": 99,
+   "requested_by_id": 101,
+   "story_type": "feature",
+   "updated_at": "2014-10-07T12:00:00Z",
+   "url": "http://localhost/story/show/555"
+}

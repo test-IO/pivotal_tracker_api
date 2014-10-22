@@ -1,0 +1,74 @@
+{
+   "comments":
+   [
+       {
+           "text": "I want them alive!",
+           "file_attachments":
+           [
+               {
+                   "kind": "file_attachment",
+                   "id": 21,
+                   "filename": "Corellian corvette deck plan.tiff",
+                   "created_at": "2014-10-07T12:00:05Z",
+                   "uploader_id": 101,
+                   "thumbnailable": false,
+                   "height": 216,
+                   "width": 650,
+                   "size": 561878,
+                   "download_url": "/attachments/0000/0021/Corellian corvette deck plan_big.tiff",
+                   "thumbnail_url": "/attachments/0000/0021/Corellian corvette deck plan_thumb.tiff"
+               },
+               {
+                   "kind": "file_attachment",
+                   "id": 20,
+                   "filename": "empire.png",
+                   "created_at": "2014-10-07T12:00:00Z",
+                   "uploader_id": 100,
+                   "thumbnailable": true,
+                   "height": 804,
+                   "width": 1000,
+                   "size": 82382,
+                   "download_url": "/attachments/0000/0020/empire_big.png",
+                   "thumbnail_url": "/attachments/0000/0020/empire_thumb.png"
+               }
+           ],
+           "id": 111
+       },
+       {
+           "text": "Here are the new plans.",
+           "file_attachments":
+           [
+               {
+                   "kind": "file_attachment",
+                   "id": 21,
+                   "filename": "Corellian corvette deck plan.tiff",
+                   "created_at": "2014-10-07T12:00:05Z",
+                   "uploader_id": 101,
+                   "thumbnailable": false,
+                   "height": 216,
+                   "width": 650,
+                   "size": 561878,
+                   "download_url": "/attachments/0000/0021/Corellian corvette deck plan_big.tiff",
+                   "thumbnail_url": "/attachments/0000/0021/Corellian corvette deck plan_thumb.tiff"
+               }
+           ],
+           "id": 300
+       }
+   ],
+   "id": 555,
+   "labels":
+   [
+   ],
+   "requested_by":
+   {
+       "kind": "person",
+       "id": 101,
+       "name": "Darth Vader",
+       "email": "vader@deathstar.mil",
+       "initials": "DV",
+       "username": "vader"
+   },
+   "tasks":
+   [
+   ]
+}
