@@ -14,11 +14,11 @@ module PivotalTrackerApi
       raise ArgumentError.new(":id is required") unless id
       raise ArgumentError.new(":filename is required") unless filename
       attachment = create_attachment project_id, filename
-      upload_url = "https://www.pivotaltracker.com/#{attachment['download_url']}"
+      upload_url = "https://www.pivotaltracker.com#{attachment['download_url']}"
       create_comment project_id, id, "text" => upload_url
     end
     def update_story(project_id, id, params)
-      put "projects/#{project_id}/stories/#{id}", params
+      put "/projects/#{project_id}/stories/#{id}", params
     end
     def create_comment(project_id, story_id, params={})
       post "/projects/#{project_id}/stories/#{story_id}/comments", params
@@ -29,7 +29,6 @@ module PivotalTrackerApi
     end
     def create_attachment(project_id, filename)
       upload "/projects/#{project_id}/uploads", File.new(filename)
-      # post "/projects/#{project_id}/uploads", :file => File.new(filename), :multipart => true
     end
   end
 end

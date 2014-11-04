@@ -67,7 +67,7 @@ module PivotalTrackerApi
     end
     def service
       return @service if @service
-      @service = ::RestClient::Resource.new(API_URL, :headers => {'X-TrackerToken' => @token} )
+      @service = ::RestClient::Resource.new(API_URL, :headers => {'X-TrackerToken' => @token}, :timeout => 10, :open_timeout => 10 )
     end
   end
 end
